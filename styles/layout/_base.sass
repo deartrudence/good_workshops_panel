@@ -6,11 +6,13 @@
 	:font-size 6rem
 	:line-height 7.2rem
 	:font-weight 400
+	:font-family 'Work Sans'
 	+display-for(md sm xs)
 		:font-size 4.4rem
 		:line-height 5.2rem 
 
 .up-five-subtitle 
+	:font-family 'Space Mono', monospace
 	:font-size 2rem
 	:line-height 3.5rem
 	:width 70%
@@ -40,7 +42,7 @@
 
 .ua5-photo 
 	:position absolute
-	:top 280px
+	:top 340px
 	:right 60px
 	:max-width 400px
 	:opacity 0.5
@@ -104,3 +106,16 @@ p.schedule
 	:margin 0 auto
 .work-first
 		:margin-bottom 0.8rem
+
+a
+	:color $black
+	:transition 0.3s
+	:font-weight bold
+a:hover
+	:color $blue
+.speaker 
+	:margin-bottom 50px
+.speaker img 
+	:max-width 180px
+.speaker h3
+	:font-size 1.6rem
